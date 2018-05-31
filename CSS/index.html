@@ -1,0 +1,75 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+<title>Pseudo-Classes</title>
+	
+	<style>
+		h1:active {
+			color: blue;
+		}
+		
+		h2:hover {
+			background: purple;
+		}
+		
+		p:hover {
+			background: yellow;
+		}
+		
+		button:hover {
+			background: orange;
+		}
+		
+		input:focus {
+			color: red;
+		}
+		
+		button:focus {
+			border-radius: 10px;
+			background-color: teal;
+		}
+		
+		button:active {
+			background-color: silver;
+			font-size: 30px;
+		}
+		
+		.btn1:active {
+			background-color: purple;
+		}
+		
+		.btn2:hover {
+			background-color: goldenrod;
+		}
+		
+		.btn3:hover {
+			background-color: hotpink;
+		}
+		
+	</style>
+</head>
+	
+<body>
+	
+	<h1>Using Pseudo classes hover, focus and active</h1>
+	
+	<div>
+		<h2>I like grape jelly.</h2>
+		<p>I like it on toast.</p>
+		<input type="text"/>
+		<button>JELLY</button><br>
+	</div>
+	
+	<br><button class="btn1">Turn me PURPLE while a user clicks me</button><br>
+	
+	<button class="btn2">Turn me GOLD when a user mouses over me</button><br>
+	
+	<button class="btn3">Turn me HOTPINK while I have focus</button>
+	
+</body>
+
+
+
+
+</html>
