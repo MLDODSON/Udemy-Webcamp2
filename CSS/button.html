@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Hover/Active Button</title>
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	
+	<style>
+		
+		body {
+			background: #fcd04b;
+		}
+		
+		h1 {
+			font-family: Lato;
+			font-size: 50px;
+			font-weight: 500;
+			color: aliceblue;
+			text-align: center;
+			margin-top: 200px;
+		}
+		
+		.btn {
+			outline: none;
+			border: none;
+			cursor: pointer;
+			display: block;
+			position: relative;
+			background-color: #fcad26;
+			font-size: 16px;
+			font-weight: 300px;
+			color: white;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			padding: 25px 80px;
+			margin: 0 auto;
+			border-radius: 20px;
+			box-shadow: 0 6px #efa424;
+		}
+		
+		.btn:hover {
+			box-shadow: 0 4px #efa424;
+			top: 2px;
+		}
+		
+		.btn:active {
+			box-shadow: none;
+			top: 6px;
+		}
+	</style>
+	
+</head>
+	
+<body>
+	<h1>This Button Does Nothing</h1>	
+	<button class="btn">Click Me</button>
+	
+</body>
+	
+</html>
